@@ -8,7 +8,7 @@ part of 'user_model.dart';
 
 class UserModelAdapter extends TypeAdapter<UserModel> {
   @override
-  final int typeId = 0;
+  final int typeId = 1;
 
   @override
   UserModel read(BinaryReader reader) {
@@ -37,7 +37,10 @@ class UserModelAdapter extends TypeAdapter<UserModel> {
 
   @override
   bool operator ==(Object other) =>
-      identical(this, other) || other is UserModelAdapter && runtimeType == other.runtimeType && typeId == other.typeId;
+      identical(this, other) ||
+      other is UserModelAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
 }
 
 // **************************************************************************

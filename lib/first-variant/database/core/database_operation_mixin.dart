@@ -1,5 +1,5 @@
-import 'package:hive_model_caching/product/database/core/hive_manager_mixin.dart';
-import 'package:hive_model_caching/product/database/hive_model.dart';
+import 'package:hive_model_caching/first-variant/database/core/hive_manager_mixin.dart';
+import 'package:hive_model_caching/first-variant/database/hive_model.dart';
 
 class HiveDatabaseOperation<T extends HiveModelMixin> with HiveManagerMixin<T> {
   @override

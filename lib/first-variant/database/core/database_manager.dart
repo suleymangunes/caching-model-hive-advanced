@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:hive_model_caching/views/home/model/user_model.dart';
+import 'package:hive_model_caching/first-variant/views/home/model/user_model.dart';
 
 abstract class IDatabaseManager {
   Future<void> start();

@@ -1,6 +1,6 @@
 import 'package:hive/hive.dart';
-import 'package:hive_model_caching/product/database/hive_model.dart';
-import 'package:hive_model_caching/product/database/hive_types.dart';
+import 'package:hive_model_caching/first-variant/database/hive_model.dart';
+import 'package:hive_model_caching/first-variant/database/core/hive_types.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'user_model.g.dart';
